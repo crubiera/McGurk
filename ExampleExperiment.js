@@ -34,7 +34,7 @@ function ExampleExperiment(jsSheetHandle, jsPsychHandle, survey_code) {
 
     var consent = {
       type:'external-html',
-      url: "https://crubiera.github.io/jsPsychSheet/experiment/external_page.html",
+      url: "https://ufpaclab.github.io/Consent-Forms/Active/Consent.html",
       cont_btn: "consent-button",
     };
     timeline.push(consent);
