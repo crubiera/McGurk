@@ -324,7 +324,7 @@ function ExampleExperiment(jsSheetHandle, jsPsychHandle, survey_code) {
 	/* start the experiment */
 	jsPsych.init({
   		timeline: timeline,
-        on_trial_finish: session.insert
+       		on_trial_finish: session.insert,
   		show_progress_bar: true,
   		on_finish: function() { window.top.location.href = `https://ufl.sona-systems.com/webstudy_credit.aspx?experiment_id=140&credit_token=43ba572f7dff44738a689f86883c905b&survey_code=${survey_code}`}
 	});
